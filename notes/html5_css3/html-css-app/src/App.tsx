@@ -1,3 +1,4 @@
+import './style/main.css'
 import './App.css'
 
 // 실행 방법: npm run dev
