@@ -1,4 +1,6 @@
+import './style/main.css'
 import './App.css'
+
 
 function App() {
  
@@ -38,19 +40,65 @@ function App() {
           <li>리스트 4</li>
 
         </ol>
-       
+       </div>
 
        <div className="box">
+
         <h2>CSS 속성 적용</h2>
         <p>CSS는 HTML요소를 스타일링 하기 위한 목적으로 사용</p>
         <a href='https://www.w3schools.com/' target="_blank">
+
+          {/* a href의 경우엔 하이퍼링크를 거는 부분 */}
+          {/* 그렇기 때문에 'HTML/CSS 학습 사이트' 를 누르면 특정 사이트로 이동함 */}
+          {/* target="_blank" 의 경우 새로운 탭에서 화면을 띄우는 것을 의미함 */}
+
           HTML / CSS 학습 사이트
         </a>
+        </div>
 
-       </div>
+       <div className="box">
+        <h2>표 만들기</h2>
+        <p>표는 데이터를 행과 열로 표현</p>
+
+        <table>
+          <thead>
+          <tr>
+            <th>첫 번쨰 제목 열</th> 
+            <th>두 번쨰 제목 열</th> 
+          </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <td>데이터 1</td>
+              <td>데이터 2</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </>
-  )
-}
 
+      <div className='box'>
+        <h2>Form(형식)</h2>
+        <p>Form 형식은 데이터를 입력할 수 있는 형태</p>
+
+        <form>
+          {/*&nbsp 글자 사이 공백  */}
+          <label htmlFor='name'>이&nbsp;&nbsp;름</label>
+          <input type='text' id='name' name='name'/>
+          <br/>
+
+          <label htmlFor='name'>이&nbsp;메&nbsp;일</label>
+          <input type='email' id='email' name='email'/>
+          <br/>
+
+          <button type="submit" className='custom-button'>
+            제출
+          </button>
+        </form>
+      </div>
+
+  </>
+  )
+
+}
 export default App

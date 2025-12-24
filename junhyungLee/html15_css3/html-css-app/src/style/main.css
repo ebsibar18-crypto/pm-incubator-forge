@@ -1,0 +1,69 @@
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 15 px 0;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    font-weight: bold;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+label{
+    /* 위 10px, 아래 5px 여백 */
+    margin: 10px 0 5px;
+    color: #444444;
+    /* 적당히 두껍게 */
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    /* rem은 브라우저의 기본 폰트 크기 */
+    transition: border-color 0.3s;
+}
+
+.custom-button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4a90ea;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    /* 마우스를 가져다 대면 손가락 모양이 나오도록 구성해줌 */
+    cursor: pointer;
+
+}
+
+
+
+
