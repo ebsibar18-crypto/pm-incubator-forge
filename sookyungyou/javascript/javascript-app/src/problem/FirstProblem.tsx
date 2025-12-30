@@ -4,38 +4,26 @@ export const FirstProblem = () => {
     let result;
 
     if (z>x) {
-    // x>5 부등식은  x가 5보다 큰가?
-    // 해당 질문의 답은 true or false
-
         result = "Hello"
-        // 조건이 참이라면 if 내부로 진입
+        
 
     } else {
-        // 조건이 거짓이라면 else로 빠짐
         result = "Hi"
     }
 
-    //  if문 작성 요령
-    // 1. 일단 if () {} 작성
-    // 2. 소괄호 내부에 조건 작성
-    // 3. 조건 만족 시 어떤 작업 할 것인지 { } 중괄호 내부에 내용 작성
-    // 4. 아닌 경우 else { } 작성
-    // 5. 실제 조건이 거짓일 경우 else { } 중괄호 내부에 내용 작성 
-
-    
+   
 
     let ternaryResult = z>x? "z는 x보다 크다" : "z는 x보다 작거나 같다"
-    // 삼항 연산자
-    // x > 5 ? A : B
-    // 조건 ? 참인 경우(A) : 거짓인 경우(B) 
-    // 이후 최종 계산된 결과가 ternaryResult에 설정됨
-
+   
     return (
         <div>
-            <h3>First Problem </h3>
+            <h3>javascript 첫 번째 퀴즈 </h3>
 
             <pre>{
                 `
+z가 x보다 크면 Hello,
+z가 x보다 작거나 같으면 Hi를 출력해주세요. 
+
 x = ${x}                          // 5
 z = ${z}                          // 10
 result = ${result}                // z는 x보다 크다. 

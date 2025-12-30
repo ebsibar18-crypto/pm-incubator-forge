@@ -1,6 +1,6 @@
 // z가 x 보다 크면 Hello,
 // z가 x 보다 작거나 같으면 Hi를 출력해주세요.
-export const ControlFlowIf = () => {
+export const FirstProblem = () => {
     let z = 10;
     let x = 20;
     let result;
@@ -20,9 +20,11 @@ export const ControlFlowIf = () => {
 
             <pre>{
                 `
-z = ${z}                            // 10
-x = ${x}                            // 20
-result = ${result}                  // Hi
+z가 x 보다 크면 Hello,
+z가 x 보다 작거나 같으면 Hi를 출력해주세요.
+z = ${z}                            
+x = ${x}                            
+result = ${result}                  
 ternaryResult = ${ternaryResult}
                 `
             }</pre>
