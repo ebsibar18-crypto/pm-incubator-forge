@@ -13,6 +13,7 @@ import { MapExample } from './map/MapExample.tsx'
 import { MapReduceExample } from './map/MapReduceExample.tsx'
 import { MapFilterExample } from './map/MapFilterExample.tsx'
 import { ArraySliceExample } from './array/ArraySliceExample.tsx'
+import { ArraySpliceExample } from './array/ArraySpliceExample copy.tsx'
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
         <MapReduceExample/>
         <MapFilterExample/>
         <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )
